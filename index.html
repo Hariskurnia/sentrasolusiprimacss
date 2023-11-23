@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SentraSolusiPrima</title>
+    <link rel="stylesheet" href="dist/output.css" />
+  </head>
+  <body>
+    <!--  header start-->
+    <header
+      class="bg-picton-blue-700 absolute top-0 left-0 w-full flex items-center z-10 pb12"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#Home" class="font-bold text-lg text-white block py-6"
+              >SENTRA SOLUSI PRIMA</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-primary bg-opacity-95 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#"
+                    class="text-base text-white py-2 mx-8 flex group-hover:animate-bounce transit duration-700 ease-in-out"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base text-white py-2 mx-8 flex group-hover:animate-bounce transit duration-700 ease-in-out"
+                    >About</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#portfolio"
+                    class="text-base text-white py-2 mx-8 flex group-hover:animate-bounce transit duration-700 ease-in-out"
+                    >Our Service</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#contact"
+                    class="text-base text-white py-2 mx-8 flex group-hover:animate-bounce transit duration-700 ease-in-out"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- Hero Section -->
+    <section id="Home" class="p-24 lg_bg-cover bg-white">
+      <div class="container pt-20">
+        <div
+          class="flex flex-wrap lg:rounded-xl sm:rounded-xl mx-auto bg-picton-blue-700"
+        >
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1
+              class="font-semibold text-white pt-5 lg:text-2xl md:text-2xl text-2xl m-1"
+            >
+              Jasa Layanan IT Tepat Guna
+            </h1>
+            <span
+              class="font-semibold text-white lg:text-5xl mt-1 md:text-5xl text-4xl"
+              >SENTRA SOLUSI PRIMA</span
+            >
+            <p
+              class="font-medium text-white mb-10 leading-relaxed pb-0 pt-3 pl-2"
+            >
+              Tidak hanya memberikan solusi, Anda akan memiliki IT partner yang
+              selalu mendampingi dan mendukung kemajuan perusahaan anda.
+            </p>
+
+            <a
+              href="#portfolio"
+              class="md:w-1/2 lg:w-24 sm:w-1/2 text-base font-bold text-primary bg-white py-2 px-5 mb-5 rounded-full hover:bg-black hover:opacity-80 transition duration-300 ease-in-out"
+              >Any Question?</a
+            >
+          </div>
+          <div class="w-full self-end lg:w-1/2 sm:w w-full md:w-full">
+            <div class="relative mt-2 lg:mt-0 right-0">
+              <img
+                src="src/img/SSP 2.png"
+                alt="smiley"
+                class="max-w-full mx-auto lg:max-w-full sm:w-full md:w-full"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- Media Card start -->
+    <section class="lg_bg-cover bg-picton-blue-500 bg-opacity-80 pt-6">
+      <a href="">
+        <div
+          class="rounded-full mx-auto lg:max-w-xs md:max-w-xs max-w-xs bg-white shadow-lg hover:bg-black opacity-90 text-xl transition duration-300 ease-in-out"
+        >
+          <h1 class="text-center p-4 text-primary font-bold">
+            PT. SENTRA SOLUSI PRIMA
+          </h1>
+        </div>
+      </a>
+      <p
+        class="text-center text-white pt-4 md:text-4xl lg:text-2xl sm:text-lg font-medium border-b-2 pb-1"
+      ></p>
+      <div
+        class="container mx-auto px-6 sm:flex sm:flex-wrap sm:gap-6 sm:justify-evenly pt-12 pb-20"
+      >
+        <div
+          class="rounded-md bg-primary shadow-lg overflow-hidden mb-10 sm:w-64 md:w-5/12 sm:mb-0 lg:w-80 hover:scale-95 hover:opacity-80 transitio duration-300"
+        >
+          <img src="src/img/1-jaringan-komputer.png" alt="" class="w-full" />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 text-white">
+              Jaringan Data & Komputer
+            </div>
+            <p class="text-sm text-slate-200">
+              Jasa pemasangan kabel data seperti fiber optic, patch panel,
+              ataupun rack server. Jaringan kabel bervariasi dalam ukuran dan
+              jenis, dari kantor kecil hingga nasional, dari kabel hingga
+              nirkabel, dengan standar yang sama: cepat, andal, dan aman.
+            </p>
+          </div>
+        </div>
+        <div
+          class="rounded-md bg-primary shadow-lg overflow-hidden mb-10 sm:w-64 md:w-5/12 sm:mb-0 lg:w-80 hover:scale-95 hover:opacity-80 transitio duration-300"
+        >
+          <img src="src/img/2-cctv.png" alt="" class="w-full" />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 text-white">CCTV System</div>
+            <p class="text-sm text-slate-200">
+              Keamananmu adalah tujuan utama kami. Tidak hanya melayani jasa
+              pemasangan CCTV hingga IP Camera, tim kami juga akan memberikan
+              rekomendasi profesional dan mengembangkan rencana untuk
+              menargetkan kebutuhan keamanan sesuai kebutuhanmu.
+            </p>
+          </div>
+        </div>
+        <div
+          class="rounded-md bg-primary shadow-lg overflow-hidden mb-10 sm:w-64 md:w-5/12 sm:mb-0 lg:w-80 hover:scale-95 hover:opacity-80 transitio duration-300"
+        >
+          <img src="src/img/9-server-room.png" alt="" class="w-full" />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 text-white">Server room</div>
+            <p class="text-sm text-slate-200">
+              Kami menangani proyek desain ruang server dari semua ukuran, mulai
+              dari kabinet server paling sederhana serta jasa pasang rak
+              telekomunikasi hingga pemasangan pusat data. Tim kami memiliki
+              keahlian untuk menyelesaikan proyek penting secara profesional dan
+              tepat waktu.
+            </p>
+          </div>
+        </div>
+        <div
+          class="rounded-md bg-primary shadow-lg overflow-hidden mb-10 sm:w-64 md:w-5/12 sm:mb-0 lg:w-80 hover:scale-95 hover:opacity-80 transitio duration-300"
+        >
+          <img src="src/img/Nas2.png" alt="" class="w-full" />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 text-white">
+              Network Attached Storage
+            </div>
+            <p class="text-sm text-slate-200">
+              Hindari sakit kepala akibat data yang hilang ataupun penyimpanan
+              penuh disaat genting. Berfokus pada pada simplicity, flexibility,
+              dan security. Jasa pemasangan Network Attached Storage
+              memungkinkan penyimpanan dan sharing data, maupun akses data
+              perusahaan dengan lebih aman dan mudah.
+            </p>
+          </div>
+        </div>
+        <div
+          class="rounded-md bg-primary shadow-lg overflow-hidden mb-10 sm:w-64 md:w-5/12 sm:mb-0 lg:w-80 hover:scale-95 hover:opacity-80 transitio duration-300"
+        >
+          <img src="src/img/4-akses-door.png" alt="" class="w-full" />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 text-white">
+              Access Door | Access Control
+            </div>
+            <p class="text-sm text-slate-200">
+              Hindari sakit kepala akibat data yang hilang ataupun penyimpanan
+              penuh disaat genting. Berfokus pada pada simplicity, flexibility,
+              dan security. Jasa pemasangan Network Attached Storage
+              memungkinkan penyimpanan dan sharing data, maupun akses data
+              perusahaan dengan lebih aman dan mudah.
+            </p>
+          </div>
+        </div>
+        <div
+          class="rounded-md bg-primary shadow-lg overflow-hidden mb-10 sm:w-64 md:w-5/12 sm:mb-0 lg:w-80 hover:scale-95 hover:opacity-80 transitio duration-300"
+        >
+          <img src="src/img/WIFI-HOME.png" alt="" class="w-full" />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 text-white">Wifi System</div>
+            <p class="text-sm text-slate-200">
+              Kami paham pentingnya penggunaan WiFi saat ini. Itulah mengapa
+              kami menyediakan layanan pemasangan WiFi terbaik bagi bisnismu.
+              Tidak ada kabel yang berantakan atau koneksi yang terputus saat
+              momen penting. Tim kami memiliki pengalaman terpercaya dengan
+              pengaturan koneksi internet nirkabel dan mereka tahu cara
+              memanfaatkan infrastruktur WiFi yang baik.
+            </p>
+          </div>
+        </div>
+        <div
+          class="rounded-md bg-primary shadow-lg overflow-hidden mb-10 sm:w-64 md:w-5/12 sm:mb-0 lg:w-80 hover:scale-95 hover:opacity-80 transitio duration-300"
+        >
+          <img src="src/img/6-ws-server-1.png" alt="" class="w-full" />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 text-white">
+              Server Windows & Linux
+            </div>
+            <p class="text-sm text-slate-200">
+              Memasang server dalam bisnis adalah salah satu investasi besar.
+              Oleh karena itu, perlu dipastikan bahwa sistem dapat dimaksimalkan
+              dalam jangka panjang. Setiap solusi instalasi server direncanakan
+              dengan cermat untuk memenuhi kebutuhan, rentang waktu, dan
+              anggaran. Kami melayani jasa pemasangan Windows Server & Linux
+              Server pada perangkat server dengan konfigurasi RAID dan LACP
+              Network, serta Backup System.
+            </p>
+          </div>
+        </div>
+        <div
+          class="rounded-md bg-primary shadow-lg overflow-hidden mb-10 sm:w-64 md:w-5/12 sm:mb-0 lg:w-80 hover:scale-95 hover:opacity-80 transitio duration-300"
+        >
+          <img src="src/img/3-router-switch.png" alt="" class="w-full" />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 text-white">Router & Switch</div>
+            <p class="text-sm text-slate-200">
+              Router, Switch, dan Firewall adalah dasar jaringan yang paling
+              diandalkan oleh perusahaan. Dengan serangkaian opsi untuk jaringan
+              serta banyak penyedia dan opsi produk untuk Router dan Switch
+              memilih arsitektur dan produk yang tepat untuk jaringan dapat
+              menjadi tantangan. Terampil dalam berbagai jenis proses instalasi
+              router, tim kami menyediakan instalasi router dan layanan
+              instalasi jaringan penting lainnya yang akan menyederhanakan alur
+              kerja perusahaanmu dan menjaga hal-hal yang Anda inginkan
+              terlindungi.
+            </p>
+          </div>
+        </div>
+        <div
+          class="rounded-md bg-primary shadow-lg overflow-hidden mb-10 sm:w-64 md:w-5/12 sm:mb-0 lg:w-80 hover:scale-95 hover:opacity-80 transitio duration-300"
+        >
+          <img src="src/img/3-router-switch.png" alt="" class="w-full" />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 text-white">Router & Switch</div>
+            <p class="text-sm text-slate-200">
+              Router, Switch, dan Firewall adalah dasar jaringan yang paling
+              diandalkan oleh perusahaan. Dengan serangkaian opsi untuk jaringan
+              serta banyak penyedia dan opsi produk untuk Router dan Switch
+              memilih arsitektur dan produk yang tepat untuk jaringan dapat
+              menjadi tantangan. Terampil dalam berbagai jenis proses instalasi
+              router, tim kami menyediakan instalasi router dan layanan
+              instalasi jaringan penting lainnya yang akan menyederhanakan alur
+              kerja perusahaanmu dan menjaga hal-hal yang Anda inginkan
+              terlindungi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- media card end -->
+
+    <!-- About section start -->
+    <section id="about" class="p-20 bg-picton-blue-700">
+      <div class="mx-auto lg:text-4xl sm:text-2xl">
+        <dl
+          class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16"
+        >
+          <div class="relative pl-16">
+            <dt class="text-base font-semibold leading-7 text-white">
+              <div
+                class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-picton-blue-950"
+              >
+                <svg
+                  class="h-6 w-6 text-white"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z"
+                  />
+                </svg>
+              </div>
+              PROFESIONAL
+            </dt>
+            <dd class="mt-2 text-base leading-7 text-white">
+              Pelayanan Terbaik dan tepat guna
+            </dd>
+          </div>
+          <div class="relative pl-16">
+            <dt class="text-base font-semibold leading-7 text-white">
+              <div
+                class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-picton-blue-950"
+              >
+                <svg
+                  class="h-6 w-6 text-white"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99"
+                  />
+                </svg>
+              </div>
+              BEST PRICE
+            </dt>
+            <dd class="mt-2 text-base leading-7 text-white">
+              Harga terbaik Untuk setiap Layanan yang kami berikan
+            </dd>
+          </div>
+          <div class="relative pl-16">
+            <dt class="text-base font-semibold leading-7 text-white">
+              <div
+                class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-picton-blue-950"
+              >
+                <svg
+                  class="h-6 w-6 text-white"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"
+                  />
+                </svg>
+              </div>
+              WARRANTY & MAINTENANCE
+            </dt>
+            <dd class="mt-2 text-base leading-7 text-white">
+              Kami berikan Garansi dan maintenance untuk setiap solusi yang kami
+              tawarkan.
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- section short heading -->
+
+    <!-- section short heading -->
+
+    <!-- portfolio section start -->
+    <section id="portfolio" class="pt-36 pb-16 bg-picton-blue-500">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h2 class="font-bold text-3xl text-white mb-2">Our Services</h2>
+            <p class="text-white text-lg mb-4">
+              Sejak tahun 2008, kami mulai melayani klien dari berbagai daerah
+              terkait pembangunan infrastruktur jaringan. Banyak klien mulai
+              dari Corporate-Hospitality-dan Retail telah menjadi partner
+              berharga kami, dan kami sedang menunggu Anda untuk melakukan hal
+              yang sama!
+            </p>
+            <div class="flex-wrap">Mediacard</div>
+          </div>
+        </div>
+      </div>
+      <section>
+        <div class="container">
+          <div class="flex"></div>
+        </div>
+      </section>
+    </section>
+    <!-- portfolio section end -->
+
+    <!-- section contact -->
+
+    <section id="#contact"></section>
+
+    <!-- section contact end -->
+
+    <!-- footer start -->
+    <footer class="bg-black text-primary py-8 pt-24 pb-12">
+      <div class="container mx-auto text-center">
+        <p class="font-medium text-sm">© SENTRA SOLUSI PRIMA</p>
+        <div class="mt-4 text-sm">
+          <a href="#" class="text-gray-500 hover:text-white px-2">Home</a>
+          <span class="text-gray-500"> | </span>
+          <a href="#about" class="text-gray-500 hover:text-white px-2">About</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="js/script.js"></script>
+</html>
